@@ -1,0 +1,19 @@
+{
+  "name": "slow-serve",
+  "version": "1.0.0",
+  "description": "Simulate a slow server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "openstandards",
+    "expressjs"
+  ],
+  "author": "stw@l;inux.com",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "express": "^4.18.3",
+    "n-readlines": "^1.0.1"
+  }
+}

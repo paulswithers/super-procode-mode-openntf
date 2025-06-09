@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #000000;
+}
+
+form {
+    border-radius: var(5px);
+    margin: 5px 0;
+    padding: 5px;
+    border: 2px solid;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: auto 1fr;
+    border-color: var(black);
+    max-width: 600px;
+
+    .input-group {
+        display: contents;
+        /* Ignore this element */
+
+        label {
+            color: #000088;
+            font-weight: bold;
+            text-align: right;
+        }
+    }
+
+    select,
+    ::picker(select) {
+        appearance: base-select;
+    }
+
+    /* hide checkmark */
+    option::checkmark {
+        display: none;
+    }
+
+    select {
+        align-items: center;
+    }
+
+    ::picker(select) {
+        max-height: 250px;
+        padding: 0;
+    }
+
+    ::picker-icon {
+        color: #000088;
+        font-size: 1.5rem;
+        transition: 0.4s rotate;
+    }
+
+    :open::picker-icon {
+        rotate: 180deg;
+    }
+
+    option,
+    selectedcontent {
+        display: grid;
+        grid-template-columns: 1.5rem 1fr;
+        gap: 1rem;
+        padding: 0.5rem;
+
+        & img {
+            width: 100%;
+        }
+
+        /* Use this to remove the blank first column */
+        /* & img:not([src]) {
+            display: none;
+
+            + span {
+                grid-column: 1 / -1;
+            }
+        } */
+
+        .description {
+            font-size: 0.8rem;
+            color: #b32323;
+        }
+        .selected-description {
+            display: none;
+            color: #999;
+        }
+
+        .bad-description {
+            display: none;
+        }
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    selectedcontent {
+        font-style: italic;
+
+        .description {
+            display: none;
+        }
+
+        .selected-description {
+            display: block;
+        }
+
+        .bad-description {
+            display: block;
+            color: #b32323;
+        }
+    }
+}

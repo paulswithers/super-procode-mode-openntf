@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #c1bdf2;
+  color: #f33;
+}
+header {
+  background: url('https://picsum.photos/1500/500') no-repeat center center/cover;
+  color: rgb(248, 4, 4);
+  text-align: center;
+  padding: 100px 20px;
+}
+header h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+header p {
+  font-size: 1.2rem;
+}
+section {
+  padding: 20px;
+  text-align: center;
+}
+.cta-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #3614a5;
+  color: white;
+  text-decoration: underline;
+  border-radius: 15px;
+  font-size: 1rem;
+}
+.cta-button:hover {
+  background-color: #600e71;
+}
+footer {
+  background-color: #33f;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+}
+
+pre {
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 5px;
+  overflow-x: auto;
+  text-align: left;
+}

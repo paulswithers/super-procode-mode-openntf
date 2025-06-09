@@ -1,0 +1,12 @@
+{
+  "name": "csp-gallore",
+  "version": "1.0.0",
+  "description": "Node.js application using Express.js to render static files and dynamically add Content-Security-Policy headers.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

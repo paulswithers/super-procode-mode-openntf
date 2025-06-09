@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Web component demo</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <demo-message id="message" msg="Click a button"></demo-message>
+      <h1>Web component Demo</h1>
+      <div class="button-row">
+        <button id="btnCreate">Create additional rating</button>
+        <button id="btnShow">Show ratings values</button>
+        <button id="btnFull">Set all ratings to max</button>
+        <button id="btnZero">Set all ratings to 0</button>
+        <button id="btnSet">Set ratings size</button>
+        <button id="btnAddStar">Extend rating by one star</button>
+        <button id="btnListen">Listen to ratings changes</button>
+        <button id="btnClearAll">Clear all ratings</button>
+      </div>
+      <ul id="changes"></ul>
+    </header>
+
+    <main>
+      <!-- here shall be dragons -->
+      <demo-rating id="rating" score="3" stars="7" size="24px">
+        Food
+      </demo-rating>
+    </main>
+
+    <demo-new-rating id="newRating" active="false"></demo-new-rating>
+
+    <footer>
+      <p>WebComponent Demo &copy; 2024 HCL, Apache-2.0 licensed</p>
+    </footer>
+
+    <script src="index.js"></script>
+    <script type="module" src="demo-rating.js"></script>
+    <script type="module" src="demo-new-rating.js"></script>
+    <script type="module" src="demo-message.js"></script>
+  </body>
+</html>

@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #000000;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    gap: 5px;   /*short-cut for row-gap and column-gap*/
+    padding: 5px;
+    /* Fix height of container and make middle row take up remainder */
+    height: 95vh;
+    grid-template-rows: auto 1fr auto;
+
+    /* Apply to direct children */
+    > * {
+        padding: 5px;
+        background-color: #999;
+    }
+
+    header {
+        text-align: center;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+    footer {
+        /* Start at first column, end at last */
+        grid-column: 1 / -1;
+        justify-self: center; /* Note how this works differently to text-align */
+        font-size: 0.7em;
+    }
+}
+
+.container-areas {
+    display: grid;
+    /* Name the areas and how the display. Strings for each row */
+    grid-template-areas: 
+        "header header header"
+        "left content right"
+        "footer footer footer";
+    grid-template-columns: 1fr 5fr 1fr;
+    gap: 5px;
+    padding: 5px;
+    /* min-height ensures it acts like Application Layout control.
+    But there are other things you can do for different outcomes ;-) */
+    min-height: 95vh;
+    grid-template-rows: auto 1fr auto;
+
+    > * {
+        padding: 5px;
+        background-color: #999;
+    }
+
+    /* Now we just map grid areas */
+    header {
+        text-align: center;
+        grid-area: header;  /* variable, not string */
+    }
+
+    nav {
+        grid-area: left;
+    }
+
+    main {
+        grid-area: content;
+    }
+
+    aside {
+        grid-area: right;
+    }
+
+    footer {
+        grid-area: footer;
+        justify-self: center;
+        font-size: 0.7em;
+    }
+}
+
+.form-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 5px;
+    justify-items: stretch;
+    align-items: flex-start;
+
+    div {
+        display: grid;
+        /* grid-template-columns: auto 1fr; */
+        gap: 5px;
+    }
+
+    .input-group {
+        display: grid;
+        grid-column: 1 / -1;
+        grid-template-columns: 100px 1fr;
+        /* grid-template-columns: subgrid; */
+        /* align-items: baseline; */
+
+        label {
+            color: #000088;
+            font-weight: bold;
+            text-align: right;
+        }
+
+        input, textarea {
+            padding: 5px;
+        }
+
+        textarea {
+            min-height: 2em;
+            field-sizing: content;
+            font-family: inherit;
+        }
+    }
+}

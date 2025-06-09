@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Flexbox</title>
+  </head>
+  <link rel="stylesheet" href="./assets/styles.css">
+  <body>
+    <h1>Here shall be Flex-ible Dragons-in-a-box</h1>
+    <div class="basic">
+        <div style="flex-grow: 6;">flex-6</div>
+        <div style="flex-grow: 3;">flex-3</div>
+        <div style="flex-grow: 3;">flex-3</div>
+    </div>
+    <br/>
+    <div class="resp">
+        <div style="flex-grow: 6;">responsive flex-6</div>
+        <div style="flex-grow: 3;">responsive flex-3</div>
+        <div style="flex-grow: 3;">responsive flex-3</div>
+    </div>
+    <br/>
+    <div class="form">
+        <div class="col" style="flex-grow: 6">
+            <h2>Personal Information</h2>
+            <input type="text" class="form-control" placeholder="Name" aria-label="Name">
+            <input type="number" class="form-control" placeholder="Age" aria-label="Age">
+            <input type="text" class="form-control" placeholder="Email" aria-label="Email">
+        </div>
+        <div class="col" style="flex-grow: 6">
+            <h2>Address</h2>
+            <input type="text" class="form-control" placeholder="Address" aria-label="Address">
+            <input type="text" class="form-control" placeholder="City" aria-label="City">
+            <input type="text" class="form-control" placeholder="Zip" aria-label="Zip">
+        </div>
+    </div>
+  </body>
+</html>

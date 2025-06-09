@@ -1,0 +1,1 @@
+default-src 'self' ; img-src https://fastly.picsum.photos https://picsum.photos; style-src 'unsafe-inline' https://cdnjs.cloudflare.com; font-src https://cdnjs.cloudflare.com;

@@ -1,0 +1,18 @@
+{
+  "name": "web-component-demo",
+  "version": "1.0.0",
+  "description": "web component Raiting",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"This is not TDD\" && exit 0"
+  },
+  "keywords": [
+    "openstandards",
+    "expressjs"
+  ],
+  "author": "stw@linux.com",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "express": "^4.18.3"
+  }
+}

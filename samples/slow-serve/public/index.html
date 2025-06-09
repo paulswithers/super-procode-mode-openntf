@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Data retrieval demo</title>
+    <link rel="stylesheet" href="index.css" /
+  </head>
+  <body>
+    <header>
+      <h1>Data retrieval demo</h1>
+    </header>
+
+    <main>
+      <div class="button-row">
+        <button id="btnFetch">Fetch (all)</button>
+        <button id="btnFetchChunk">Fetch (chunk)</button>
+        <button id="btnAxios">Axios (all)</button>
+        <button id="btnAxiosChunk">Axios (chunk)</button>
+      </div>
+      <div id="message">Click a button</div>
+
+      <table id="mainTable">
+        <thead id="mainTableHead">
+          <tr>
+            <th>id</th>
+            <th>image</th>
+            <th>color</th>
+            <th>artist</th>
+            <th>price</th>
+            <th>currency</th>
+          </tr>
+        </thead>
+        <tbody id="mainTableBody"></tbody>
+      </table>
+    </main>
+
+    <footer>
+      <p>Axios / Fetch Demo &copy; 2024 HCL, Apache-2.0 licensed</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

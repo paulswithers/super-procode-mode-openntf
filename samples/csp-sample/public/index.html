@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hiking Adventures</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="stylesheet" href="index.css" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        color: #333;
+      }
+      header {
+        background: url('https://picsum.photos/1500/500') no-repeat center center/cover;
+        color: rgb(248, 4, 4);
+        text-align: center;
+        padding: 100px 20px;
+      }
+      header h1 {
+        font-size: 3rem;
+        margin: 0;
+      }
+      header p {
+        font-size: 1.2rem;
+      }
+      section {
+        padding: 20px;
+        text-align: center;
+      }
+      .cta-button {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: #28a745;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 1rem;
+      }
+      .cta-button:hover {
+        background-color: #218838;
+      }
+      footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Explore the Great Outdoors</h1>
+      <p>Join <i class="fa-solid fa-user"></i> us for unforgettable hiking adventures in breathtaking locations.</p>
+    </header>
+    <section>
+      <h2>Why Choose Us? <i class="fa-solid fa-skull-crossbones fa-2xl"></i></h2>
+      <p>We offer guided tours, expert advice, and a passion for nature.</p>
+      <a href="#" class="cta-button" onclick="alert('inline clicked')">Book Your Adventure inline</a>
+      <a href="#" class="cta-button" id="jsBlock">Book Your Adventure JSBlock</a>
+      <a href="#" class="cta-button" id="jsAdventure">Book Your Adventure JS</a>
+    </section>
+    <section>
+      <a href="index.html?policy=default">default</a>
+      <a href="index.html?policy=easy">easy</a>
+      <a href="index.html?policy=strict">strict</a>
+      <a href="index.html?policy=tight">tight</a>
+    </section>
+    <section>
+      <h3>default</h3>
+      <pre>
+default-src 'self' 'unsafe-inline';
+      </pre>
+      <h3>easy</h3>
+      <pre>
+default-src 'self';
+img-src https://fastly.picsum.photos https://picsum.photos;
+style-src 'unsafe-inline' https://cdnjs.cloudflare.com; font-src https://cdnjs.cloudflare.com;
+      </pre>
+      <h3>strict</h3>
+      <pre>
+default-src 'self';
+      </pre>
+      <h3>tight</h3>
+      <pre>
+default-src 'self';
+img-src https://fastly.picsum.photos https://picsum.photos
+      </pre>
+    </section>
+    <footer>
+      <p>&copy; 2025 Hiking Adventures. All rights reserved.</p>
+    </footer>
+    <script src="index.js"></script>
+    <script>
+      console.log('Hello from the script tag');
+      document.getElementById('jsBlock').addEventListener('click', function (event) {
+        event.preventDefault();
+        alert('js clicked');
+      });
+    </script>
+  </body>
+</html>

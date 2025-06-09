@@ -1,0 +1,475 @@
+[
+    {
+        "group": "Browsers",
+        "data": [
+            {
+                "label": "Netscape navigator",
+                "data": [
+                    {
+                        "timeRange": [
+                            "1994",
+                            "1995"
+                        ],
+                        "val": "v1"
+                    },
+                    {
+                        "timeRange": [
+                            "1995",
+                            "1996"
+                        ],
+                        "val": "v2"
+                    },
+                    {
+                        "timeRange": [
+                            "1996",
+                            "1997"
+                        ],
+                        "val": "v3"
+                    },
+                    {
+                        "timeRange": [
+                            "1997",
+                            "2002"
+                        ],
+                        "val": "v4"
+                    }
+                ]
+            },
+            {
+                "label": "Firefox",
+                "data": [
+                    {
+                        "timeRange": [
+                            "2004",
+                            "2006"
+                        ],
+                        "val": "v1"
+                    },
+                    {
+                        "timeRange": [
+                            "2006",
+                            "2008"
+                        ],
+                        "val": "v2"
+                    },
+                    {
+                        "timeRange": [
+                            "2008",
+                            "2011"
+                        ],
+                        "val": "v3"
+                    },
+                    {
+                        "timeRange": [
+                            "2011",
+                            "2011"
+                        ],
+                        "val": "v4"
+                    },
+                    {
+                        "timeRange": [
+                            "2011",
+                            "2024"
+                        ],
+                        "val": "continious"
+                    }
+                ]
+            },
+            {
+                "label": "Internet Explorer",
+                "data": [
+                    {
+                        "timeRange": [
+                            "1995",
+                            "1995"
+                        ],
+                        "val": "v1"
+                    },
+                    {
+                        "timeRange": [
+                            "1995",
+                            "1996"
+                        ],
+                        "val": "v2"
+                    },
+                    {
+                        "timeRange": [
+                            "1996",
+                            "1997"
+                        ],
+                        "val": "v3"
+                    },
+                    {
+                        "timeRange": [
+                            "1997",
+                            "1999"
+                        ],
+                        "val": "v4"
+                    },
+                    {
+                        "timeRange": [
+                            "1999",
+                            "2001"
+                        ],
+                        "val": "v5"
+                    },
+                    {
+                        "timeRange": [
+                            "2001",
+                            "2006"
+                        ],
+                        "val": "v6"
+                    },
+                    {
+                        "timeRange": [
+                            "2006",
+                            "2013"
+                        ],
+                        "val": "v7-10"
+                    },
+                    {
+                        "timeRange": [
+                            "2013",
+                            "2022"
+                        ],
+                        "val": "v11"
+                    }
+                ]
+            },
+            {
+                "label": "Chrome",
+                "data": [
+                    {
+                        "timeRange": [
+                            "2008",
+                            "2009"
+                        ],
+                        "val": "v1"
+                    },
+                    {
+                        "timeRange": [
+                            "2009",
+                            "2009"
+                        ],
+                        "val": "v2"
+                    },
+                    {
+                        "timeRange": [
+                            "2009",
+                            "2010"
+                        ],
+                        "val": "v3"
+                    },
+                    {
+                        "timeRange": [
+                            "2010",
+                            "2010"
+                        ],
+                        "val": "v4"
+                    },
+                    {
+                        "timeRange": [
+                            "2010",
+                            "2010"
+                        ],
+                        "val": "v5"
+                    },
+                    {
+                        "timeRange": [
+                            "2010",
+                            "2010"
+                        ],
+                        "val": "v6"
+                    },
+                    {
+                        "timeRange": [
+                            "2010",
+                            "2024"
+                        ],
+                        "val": "continious"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "group": "Frameworks",
+        "data": [
+            {
+                "label": "DOJO",
+                "data": [
+                    {
+                        "timeRange": [
+                            "2005",
+                            "2022"
+                        ],
+                        "val": "v1"
+                    },
+                    {
+                        "timeRange": [
+                            "2012",
+                            "2024"
+                        ],
+                        "val": "v2"
+                    }
+                ]
+            },
+            {
+                "label": "JQUERY",
+                "data": [
+                    {
+                        "timeRange": [
+                            "2006",
+                            "2013"
+                        ],
+                        "val": "v1"
+                    },
+                    {
+                        "timeRange": [
+                            "2013",
+                            "2016"
+                        ],
+                        "val": "v2"
+                    },
+                    {
+                        "timeRange": [
+                            "2016",
+                            "2023"
+                        ],
+                        "val": "v3"
+                    },
+                    {
+                        "timeRange": [
+                            "2023",
+                            "2024"
+                        ],
+                        "val": "v4"
+                    }
+                ]
+            },
+            {
+                "label": "Angular.js",
+                "data": [
+                    {
+                        "timeRange": [
+                            "2010",
+                            "2018"
+                        ],
+                        "val": "v1"
+                    }
+                ]
+            },
+            {
+                "label": "ReactJS",
+                "data": [
+                    {
+                        "timeRange": [
+                            "2013",
+                            "2016"
+                        ],
+                        "val": "v1"
+                    },
+                    {
+                        "timeRange": [
+                            "2016",
+                            "2024"
+                        ],
+                        "val": "continious"
+                    }
+                ]
+            },
+            {
+                "label": "Angular",
+                "data": [
+                    {
+                        "timeRange": [
+                            "2014",
+                            "2016"
+                        ],
+                        "val": "v2"
+                    },
+                    {
+                        "timeRange": [
+                            "2016",
+                            "2018"
+                        ],
+                        "val": "v4"
+                    },
+                    {
+                        "timeRange": [
+                            "2018",
+                            "2018"
+                        ],
+                        "val": "v6"
+                    },
+                    {
+                        "timeRange": [
+                            "2018",
+                            "2024"
+                        ],
+                        "val": "continious"
+                    }
+                ]
+            },
+            {
+                "label": "Svelte",
+                "data": [
+                    {
+                        "timeRange": [
+                            "2016",
+                            "2018"
+                        ],
+                        "val": "v1"
+                    },
+                    {
+                        "timeRange": [
+                            "2018",
+                            "2019"
+                        ],
+                        "val": "v2"
+                    },
+                    {
+                        "timeRange": [
+                            "2019",
+                            "2023"
+                        ],
+                        "val": "v3"
+                    },
+                    {
+                        "timeRange": [
+                            "2023",
+                            "2024"
+                        ],
+                        "val": "v4"
+                    }
+                ]
+            },
+            {
+                "label": "NextJS",
+                "data": [
+                    {
+                        "timeRange": [
+                            "2016",
+                            "2017"
+                        ],
+                        "val": "v1"
+                    },
+                    {
+                        "timeRange": [
+                            "2017",
+                            "2018"
+                        ],
+                        "val": "v2"
+                    },
+                    {
+                        "timeRange": [
+                            "2018",
+                            "2024"
+                        ],
+                        "val": "continious"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "group": "Layouts",
+        "data": [
+            {
+                "label": "CSS",
+                "data": [
+                    {
+                        "timeRange": [
+                            "1994",
+                            "1996"
+                        ],
+                        "val": "Proposal"
+                    },
+                    {
+                        "timeRange": [
+                            "1996",
+                            "1998"
+                        ],
+                        "val": "v1"
+                    },
+                    {
+                        "timeRange": [
+                            "1998",
+                            "2011"
+                        ],
+                        "val": "v2"
+                    },
+                    {
+                        "timeRange": [
+                            "1999",
+                            "2024"
+                        ],
+                        "val": "v3"
+                    }
+                ]
+            },
+            {
+                "label": "SASS",
+                "data": [
+                    {
+                        "timeRange": [
+                            "2006",
+                            "2022"
+                        ],
+                        "val": "continious"
+                    }
+                ]
+            },
+            {
+                "label": "LESS",
+                "data": [
+                    {
+                        "timeRange": [
+                            "2009",
+                            "2023"
+                        ],
+                        "val": "continious"
+                    }
+                ]
+            },
+            {
+                "label": "Tailwind",
+                "data": [
+                    {
+                        "timeRange": [
+                            "2019",
+                            "2021"
+                        ],
+                        "val": "v1"
+                    },
+                    {
+                        "timeRange": [
+                            "2021",
+                            "2022"
+                        ],
+                        "val": "v2"
+                    },
+                    {
+                        "timeRange": [
+                            "2022",
+                            "2024"
+                        ],
+                        "val": "v3"
+                    }
+                ]
+            },
+            {
+                "label": "Shoelace",
+                "data": [
+                    {
+                        "timeRange": [
+                            "2020",
+                            "2024"
+                        ],
+                        "val": "continious"
+                    }
+                ]
+            }
+        ]
+    }
+]

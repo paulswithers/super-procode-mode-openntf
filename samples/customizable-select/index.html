@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>CSS Grid</title>
+        <link rel="stylesheet" href="./assets/styles.css" type="text/css" />
+        <!-- <script type="module" src="index.js" charset="utf-8"></script> -->
+	</head>
+	<body>
+        <form>
+            <div class="input-group">
+                <label for="firstName">First Name</label>
+                <input id="firstName" />
+            </div>
+            <div class="input-group">
+                <label for="lastName">Last Name</label>
+                <input id="lastName" />
+            </div>
+            <div class="input-group">
+                <label for="mail-type">Email Platform</label>
+                <select class="email-select" id="email-select">
+                    <button>
+                      <selectedcontent></selectedcontent>
+                    </button>
+                    <option value="" class="hidden">
+                      <img></img>
+                      <span>Select an email platform</span>
+                    </option>
+                    <option value="gmail">
+                      <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" />
+                      <div>
+                        <span>Gmail</span>
+                        <div class="bad-description">Bad choice - do you want to try again?</div>
+                      </div>
+                    </option>
+                    <option value="outlook">
+                      <img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Microsoft_Office_Outlook_%282018%E2%80%93present%29.svg" />
+                      <div>
+                        <span>Outlook</span>
+                        <div class="bad-description">Bad choice - do you want to try again?</div>
+                      </div>
+                    </option>
+                    <option value="notes">
+                      <img src="./assets/DS_Logo_Notes_icon.png" />
+                      <div>
+                        <span>Notes</span>
+                        <div class="description">You really want to choose this one!</div>
+                        <div class="selected-description">Well done!</div>
+                      </div>
+                    </option>
+                </select>
+            </div>
+        </form>
+    </body>
+</html>

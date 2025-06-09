@@ -1,0 +1,101 @@
+:root {
+    color-scheme: light dark;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+
+    --primary-color: #000;
+    --primary-color-dark: #FFF;
+    --background: #FFF;
+    --background-dark: #000;
+    --div-info: #7fb3d5;
+    --div-confirm: #a3e4d7;
+    --div-warning: #f1948a;
+    /* --div-warning: #f39c12; */
+    --div-warning-border: hsl(from var(--div-warning) h s calc(l - 20));
+
+    --label-color: #000088;
+    --label-color-dark: #FFF;
+
+    --input-invalid: red;
+    --input-valid: green;
+}
+
+@property --border-validation {
+    syntax: "<color>";
+    inherits: true;
+    initial-value: black;
+}
+
+@property --standard-radius {
+    syntax: "<length>";
+    inherits: false;
+    initial-value: 5px;
+}
+
+body {
+    background-color: light-dark(var(--background), var(--background-dark));
+    color: light-dark(var(--primary-color), var(--primary-color-dark));
+}
+
+div {
+    padding: 0.5rem;
+    margin: 5px 0;
+    border: 2px solid;
+    border-radius: var(--standard-radius);
+
+    &.info {
+        background-color: var(--div-info);
+        border-color: hsl(from var(--div-info) h s calc(l - 20));
+    }
+
+    &.confirm {
+        background-color: var(--div-confirm);
+        border-color: oklch(from var(--div-confirm) calc(l * 0.8) c h);
+    }
+
+    &.warning {
+        background-color: var(--div-warning);
+        border: 2px solid var(--div-warning-border);
+    }
+}
+    
+form {
+    border-radius: var(--standard-radius);
+    margin: 5px 0;
+    padding: 5px;
+    border: 2px solid;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: auto 1fr;
+    border-color: var(--border-validation);
+    
+    .input-group {
+        display: contents; /* Ignore this element */
+
+        label {
+            color: light-dark(var(--label-color), var(--label-color-dark));
+            font-weight: bold;
+            text-align: right;
+        }
+
+        input {
+            border-color: var(--border-validation);
+            
+            &:valid {
+                --border-validation: var(--input-valid);
+            }
+
+            &:invalid {
+                --border-validation: var(--input-invalid);
+            }
+        }
+    }
+
+    &:has(input:user-valid) {
+        --border-validation: var(--input-valid);
+    }
+
+    &:has(input:user-invalid) {
+        --border-validation: var(--input-invalid);
+    }
+}

@@ -1,0 +1,27 @@
+div[class*="col"] {
+    border-collapse: collapse;
+    border: 1px solid #000088;
+}
+div[class*="col-md"] {
+    border: 1px solid #008800;
+}
+
+div.form {
+    border-collapse: collapse;
+    border: 1px solid #880088;
+    padding: 5px 0;
+}
+
+div.form > div {
+    border: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+div.form .col {
+    border: 0;
+}
+
+div.form input {
+    margin: 5px 0;
+}

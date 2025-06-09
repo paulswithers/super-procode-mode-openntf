@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "dev": "vite"
+  },
+  "type": "module",
+  "dependencies": {
+    "vite": "^6.3.4",
+    "vite-plugin-mkcert": "^1.17.8"
+  }
+}
