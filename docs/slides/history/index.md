@@ -15,4 +15,5 @@
 
 Internet Explorer died<br/>
 Browsers auto-updated<br/>
-JavaScript and CSS evolved
+JavaScript and CSS evolved<br/>
+HTML component extensibility became *cool*
