@@ -1,5 +1,5 @@
 # super-pro-code-mode
-Presentation for Engage 2024 - frameworkless development
+Presentation for OpenNTF 2025 - frameworkless development
 
 ## Agenda
 
@@ -9,7 +9,7 @@ Presentation for Engage 2024 - frameworkless development
   - build libs 
 - ZEN of code: Structure, Layout, Behavior
 
-- Stadards
+- Standards
 
 ### With & Without
 
@@ -34,12 +34,12 @@ Presentation for Engage 2024 - frameworkless development
 
 ## Learnings
 
-- apprechiate standards
-- write futur proof code
+- appreciate standards
+- write future proof code
 - make informed decisions
 
 
 
-## Constrains
+## Constraints
 
 - TV Kitchen (ready made parts)
